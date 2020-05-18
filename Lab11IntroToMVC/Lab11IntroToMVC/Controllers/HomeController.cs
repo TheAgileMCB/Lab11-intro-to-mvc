@@ -12,5 +12,21 @@ namespace Lab11IntroToMVC.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Index(int firstYear, int lastYear)
+        {
+            return RedirectToAction("Ranger", new { firstYear, lastYear });
+        }
+
+        public IActionResult Ranger(RangerViewModel viewModel)
+        {
+            return View(viewModel);
+        }
+
+        public IActionResult Welcome()
+        {
+            return View();
+        }
     }
 }
