@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static Lab11IntroToMVC.Models.Person;
 
 namespace Lab11IntroToMVC.Models
 {
@@ -10,13 +11,13 @@ namespace Lab11IntroToMVC.Models
         public int firstYear { get; set; }
         public int lastYear { get; set; }
 
-        //public object[] RangeFinder(int firstYeat, int lastYear)
-        //{
-        //    for(int i = firstYear; i < lastYear; i++)
-        //    {
-
-        //    }
-        //    return 
-        //} 
+        public void RangeFinder(int firstYear, int lastYear)
+        {
+             for (int i = firstYear; i < lastYear; i++)
+            {
+                 GetPOTY();
+            }
+          
+        }
     }
 }

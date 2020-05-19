@@ -10,10 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\css\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="app_data\personOfTheYear.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
