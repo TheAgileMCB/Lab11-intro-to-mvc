@@ -43,7 +43,7 @@ Your application should include the following:
 # Usage
 Enter a date range, click submit, and you'll see returned a list of Time Magazine's Person of the Year from the selected range of years.
 
-![Home page]()
+![Home page](https://github.com/mcbarnhart/Lab11-intro-to-mvc/blob/master/assets/poty-finder.png)
 
 # Installation
 Web-based, my friends! Simply visit the Person of the Year Finder [here](https://lab11introtomvc20200518161630.azurewebsites.net/Home/)!
