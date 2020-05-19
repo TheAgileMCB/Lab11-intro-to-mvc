@@ -1,0 +1,31 @@
+﻿@model Lab11IntroToMVC.Models.RangerViewModel
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge; chrome=1"> <!-- Render Chrome if available or using latest version of Internet Explorer (Recommended). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Person of the Year Filter</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Person of the Year Finder</h1>
+        <h3>Filter your favorites!</h3>
+    </header>
+    <ul>
+        @for (int i = @Model.firstYear; i < @Model.lastYear; i++)
+        {
+            <li>Model.person[i]</li>
+        }'
+    </ul>
+</body>
+</html>
